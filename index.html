@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Pizza Timer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Custom fonts imported from Google Fonts to match the original design's aesthetic */
+      @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Balsamiq+Sans:wght@400;700&display=swap');
+      
+      /* Apply Fredoka as the default font for the body */
+      body {
+        font-family: 'Fredoka', sans-serif;
+      }
+      /* Custom class for the specific handwritten-like title font */
+      .font-balsamiq {
+        font-family: 'Balsamiq Sans', cursive;
+      }
+
+      /* Grid background pattern */
+      .grid-background {
+        background-color: #F2E6CF; /* Matching APP_COLORS.BACKGROUND_BEIGE_LIGHT */
+        background-image:
+          repeating-linear-gradient(0deg, rgba(0,0,0,0.06) 0 1px, transparent 1px 48px),
+          repeating-linear-gradient(90deg, rgba(0,0,0,0.06) 0 1px, transparent 1px 48px);
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4 grid-background">
+    <div id="root"></div>
+</body>
+</html>
